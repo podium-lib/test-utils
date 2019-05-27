@@ -22,3 +22,18 @@ const dest = destinationObjectStream(arr => {
 
 someSourceStream.pipe(dest);
 ```
+
+## destinationBufferStream(done)
+
+A detinations stream to pipe buffers into. Will collect all buffer chunks piped
+into it and call the `done` callback with the buffered up chunks as a `String`.
+
+```js
+const { destinationBufferStream } = require('@podium/test-utils');
+
+const dest = destinationBufferStream(str => {
+    console.log(str);
+});
+
+someSourceStream.pipe(dest);
+```
