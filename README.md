@@ -11,6 +11,7 @@ $ npm install @podium/test-utils --save-dev
 This module contain the following utils:
 
  * [PodletServer](/lib/podlet-server) - A dummy Podlet server with misc hooks to tap into manipulate the server on the fly.
+ * [destinationObjectStream](/lib/stream-utils) - A stream util to pipe Objects into. Calls a callback with all Objects streamed into it when done.
 
  ## License
 
