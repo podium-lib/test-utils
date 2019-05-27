@@ -1,0 +1,46 @@
+{
+  "name": "@podium/test-utils",
+  "version": "1.0.0",
+  "description": "Misc common test utils for Podium",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "keywords": [
+    "micro services",
+    "micro frontend",
+    "components",
+    "podium",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:podium-lib/test-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/podium-lib/issues"
+  },
+  "homepage": "https://podium-lib.io/",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "tap test/*.js",
+    "test:coverage": "tap test/*.js --cov",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "Trygve Lie",
+  "dependencies": {
+    "@podium/utils": "4.0.0-next.4",
+    "@podium/podlet": "4.0.0-next.7",
+    "server-destroy": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.1",
+    "tap": "^12.1.1"
+  }
+}
