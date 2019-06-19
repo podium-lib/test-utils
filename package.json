@@ -30,10 +30,10 @@
   },
   "author": "Trygve Lie",
   "dependencies": {
-    "readable-stream": "3.2.0",
-    "@podium/podlet": "4.0.0-next.7",
+    "readable-stream": "3.4.0",
+    "@podium/podlet": "4.0.1",
     "server-destroy": "1.0.1",
-    "@podium/utils": "4.0.0-next.4"
+    "@podium/utils": "4.0.0"
   },
   "devDependencies": {
     "eslint": "^5.12.1",
