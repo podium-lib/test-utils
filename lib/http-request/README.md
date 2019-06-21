@@ -34,7 +34,8 @@ const result = await request({
 });
 ```
 
-Return an object with the http headers and rsponse body:
+Return an promise which resolves with and object with the http headers and
+response body:
 
 ```js
 {
@@ -57,7 +58,7 @@ Return an object with the http headers and rsponse body:
 #### payload
 
 If the option method is `POST` or `PUT` the payload to send to the server. The
-payload should be a string value.
+payload should be a string.
 
 ```js
 const result = await request({

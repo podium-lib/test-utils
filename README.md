@@ -12,8 +12,9 @@ This module contain the following utils:
 
  * [PodletServer](/lib/podlet-server) - A dummy Podlet server with misc hooks to tap into manipulate the server on the fly.
  * [HttpServer](/lib/http-server) - A simple http server with a request hook to insert a simple response.
+ * [request](/lib/http-request) - A simple http request client.
  * [destinationObjectStream](/lib/stream-utils) - A stream util to pipe Objects into. Calls a callback with all Objects streamed into it when done.
-* [destinationBufferStream](/lib/stream-utils) - A stream util to pipe Buffer chunks into. Calls a callback with a String of all buffer chunks when done.
+ * [destinationBufferStream](/lib/stream-utils) - A stream util to pipe Buffer chunks into. Calls a callback with a String of all buffer chunks when done.
 
  ## License
 
