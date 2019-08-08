@@ -31,17 +31,17 @@
   "author": "Trygve Lie",
   "dependencies": {
     "readable-stream": "3.4.0",
-    "@podium/podlet": "4.0.1",
+    "@podium/podlet": "4.2.0-next.3",
     "server-destroy": "1.0.1",
-    "@podium/utils": "4.0.0"
+    "@podium/utils": "4.1.0-next.2"
   },
   "devDependencies": {
-    "eslint": "^5.12.1",
+    "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^4.0.0",
+    "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.16.1",
-    "tap": "^12.1.1"
+    "tap": "^14.6.1"
   }
 }
