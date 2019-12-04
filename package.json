@@ -31,7 +31,7 @@
   "author": "Trygve Lie",
   "dependencies": {
     "readable-stream": "3.4.0",
-    "@podium/podlet": "4.2.0",
+    "@podium/podlet": "4.2.4",
     "server-destroy": "1.0.1",
     "@podium/utils": "4.1.0"
   },
