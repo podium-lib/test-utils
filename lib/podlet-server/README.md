@@ -14,17 +14,15 @@ $ npm install @podium/test-utils --save-dev
 Start a Podlet server at any random available http port
 
 ```js
-
 const { PodletServer } = require('@podium/test-utils');
 
 const server = new PodletServer();
 const service = await server.listen();
 
-console.log(service) // addresses to server etc.
+console.log(service); // addresses to server etc.
 
 await server.close();
 ```
-
 
 ## Constructor
 
@@ -36,17 +34,16 @@ const server = new PodletServer(options);
 
 ### options
 
-| option      | type      | default          | description                      |
-| ----------- | --------- | ---------------- | -------------------------------- |
-| name        | `string`  | `component`      | Name of the Podlet               |
-| version     | `string`  | `1.0.0`          | Version number of the podlet     |
-| pathname    | `string`  | `/`              | Pathname of the Podlet           |
-| manifest    | `string`  | `/manifest.json` | Pathname to the Podlets manifest |
-| content     | `string`  | `/index.html`    | Pathname to the Podlets content  |
-| fallback    | `string`  | `/fallback.html` | Pathname to the Podlets fallback |
-| assets      | `object`  | `{}`             |                                  |
-| proxy       | `object`  | `{}`             |                                  |
-
+| option   | type     | default          | description                      |
+| -------- | -------- | ---------------- | -------------------------------- |
+| name     | `string` | `component`      | Name of the Podlet               |
+| version  | `string` | `1.0.0`          | Version number of the podlet     |
+| pathname | `string` | `/`              | Pathname of the Podlet           |
+| manifest | `string` | `/manifest.json` | Pathname to the Podlets manifest |
+| content  | `string` | `/index.html`    | Pathname to the Podlets content  |
+| fallback | `string` | `/fallback.html` | Pathname to the Podlets fallback |
+| assets   | `object` | `{}`             |                                  |
+| proxy    | `object` | `{}`             |                                  |
 
 ## API methods
 
@@ -61,7 +58,7 @@ about the running instance.
 ```js
 const server = new PodletServer();
 const service = await server.listen();
-console.log(service) // addresses to server etc.
+console.log(service); // addresses to server etc.
 ```
 
 #### host
@@ -77,7 +74,6 @@ const service = await server.listen('http://localhost:8080');
 
 Closes the running instance. Returns a `promise` which will resolve when all
 open connections to the instance is closed and the server is properly closed.
-
 
 ## API properties
 
@@ -135,7 +131,7 @@ is a `Object`.
 ```js
 const server = new PodletServer();
 server.headersManifest = {
-    foo: 'some-value'
+    foo: 'some-value',
 };
 ```
 
@@ -147,8 +143,18 @@ is a `Object`.
 ```js
 const server = new PodletServer();
 server.headersContent = {
-    foo: 'some-value'
+    foo: 'some-value',
 };
+```
+
+### .statusCode
+
+A `getter` and `setter` for the http status code to be used when responding to requests. Value
+is a `number`.
+
+```js
+const server = new PodletServer();
+server.statusCode = 302;
 ```
 
 ### .headersFallback
@@ -159,7 +165,7 @@ is a `Object`.
 ```js
 const server = new PodletServer();
 server.headersFallback = {
-    foo: 'some-value'
+    foo: 'some-value',
 };
 ```
 
@@ -171,7 +177,7 @@ A `getter` and `setter` for the body served by the manifest route. Value is a
 ```js
 const server = new PodletServer();
 server.manifestBody = {
-    name: 'foo-bar'
+    name: 'foo-bar',
 };
 ```
 
