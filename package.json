@@ -31,9 +31,9 @@
   "author": "Trygve Lie",
   "dependencies": {
     "readable-stream": "3.6.0",
-    "@podium/podlet": "4.4.16",
+    "@podium/podlet": "4.4.19",
     "server-destroy": "1.0.1",
-    "@podium/utils": "4.4.12"
+    "@podium/utils": "4.4.15"
   },
   "devDependencies": {
     "eslint": "7.22.0",
@@ -42,6 +42,6 @@
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-prettier": "3.3.1",
     "prettier": "2.2.1",
-    "tap": "14.11.0"
+    "tap": "15.0.2"
   }
 }
