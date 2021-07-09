@@ -33,7 +33,7 @@
     "readable-stream": "3.6.0",
     "@podium/podlet": "4.4.19",
     "server-destroy": "1.0.1",
-    "@podium/utils": "4.4.15"
+    "@podium/utils": "4.4.23"
   },
   "devDependencies": {
     "eslint": "7.22.0",
