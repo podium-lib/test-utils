@@ -1,20 +1,6 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    "group:linters"
-  ],
-  "packageRules": [{
-    "depTypeList": ["dependencies"],
-    "automerge": false,
-    "major": {
-      "automerge": false
-    }
-  },
-  {
-    "depTypeList": ["devDependencies"],
-    "automerge": true,
-    "major": {
-      "automerge": false
-    }
-  }]
+    "github>podium-lib/renovate-presets:sub-level-module"
+  ]
 }
