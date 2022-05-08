@@ -30,8 +30,8 @@
   },
   "author": "Trygve Lie",
   "dependencies": {
-    "@podium/podlet": "4.4.34",
-    "@podium/utils": "4.4.24",
+    "@podium/podlet": "4.4.63",
+    "@podium/utils": "4.4.36",
     "readable-stream": "3.6.0",
     "selfsigned": "2.0.0",
     "server-destroy": "1.0.1"
