@@ -1,6 +1,6 @@
 {
   "name": "@podium/test-utils",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "Misc common test utils for Podium",
   "main": "lib/index.js",
   "license": "MIT",
