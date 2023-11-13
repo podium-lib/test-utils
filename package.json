@@ -33,7 +33,7 @@
     "@podium/podlet": "4.4.63",
     "@podium/utils": "4.4.36",
     "readable-stream": "3.6.0",
-    "selfsigned": "2.0.1",
+    "selfsigned": "2.4.1",
     "server-destroy": "1.0.1"
   },
   "devDependencies": {
