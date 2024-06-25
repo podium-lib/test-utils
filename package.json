@@ -1,48 +1,51 @@
 {
-  "name": "@podium/test-utils",
-  "version": "2.5.2",
-  "description": "Misc common test utils for Podium",
-  "main": "lib/index.js",
-  "license": "MIT",
-  "keywords": [
-    "micro services",
-    "micro frontend",
-    "components",
-    "podium",
-    "test"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:podium-lib/test-utils.git"
-  },
-  "bugs": {
-    "url": "https://github.com/podium-lib/issues"
-  },
-  "homepage": "https://podium-lib.io/",
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "test": "tap test/*.js",
-    "test:coverage": "tap test/*.js --cov",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
-  },
-  "author": "Trygve Lie",
-  "dependencies": {
-    "@podium/podlet": "4.4.63",
-    "@podium/utils": "4.4.36",
-    "readable-stream": "3.6.0",
-    "selfsigned": "2.0.1",
-    "server-destroy": "1.0.1"
-  },
-  "devDependencies": {
-    "eslint": "7.30.0",
-    "eslint-config-airbnb-base": "14.2.1",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.23.4",
-    "eslint-plugin-prettier": "3.4.0",
-    "prettier": "2.3.2",
-    "tap": "15.0.9"
-  }
+    "name": "@podium/test-utils",
+    "version": "2.5.2",
+    "type": "module",
+    "description": "Misc common test utils for Podium",
+    "main": "lib/index.js",
+    "types": "types/index.js",
+    "license": "MIT",
+    "keywords": [
+        "micro services",
+        "micro frontend",
+        "components",
+        "podium",
+        "test"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:podium-lib/test-utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/podium-lib/issues"
+    },
+    "homepage": "https://podium-lib.io/",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "test": "tap --disable-coverage --allow-empty-coverage test/*.js && tsc --project tsconfig.test.json",
+        "types": "tsc --declaration --emitDeclarationOnly"
+    },
+    "author": "Trygve Lie",
+    "dependencies": {
+        "@podium/podlet": "5.1.8",
+        "@podium/utils": "5.0.7",
+        "readable-stream": "4.5.2",
+        "selfsigned": "2.4.1",
+        "server-destroy": "1.0.1"
+    },
+    "devDependencies": {
+        "@types/readable-stream": "^4.0.14",
+        "eslint": "9.5.0",
+        "eslint-config-prettier": "9.1.0",
+        "eslint-plugin-prettier": "5.1.3",
+        "globals": "15.0.0",
+        "prettier": "3.3.2",
+        "tap": "19.2.5",
+        "typescript": "5.5.2"
+    }
 }
