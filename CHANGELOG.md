@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/podium-lib/test-utils/compare/v3.0.0...v3.0.1) (2024-06-25)
+
+
+### Bug Fixes
+
+* include the whole types folder ([3c71a19](https://github.com/podium-lib/test-utils/commit/3c71a191113b2c953b6595d44c9f95f510379ecd))
+
 # [3.0.0](https://github.com/podium-lib/test-utils/compare/v2.5.2...v3.0.0) (2024-06-25)
 
 
