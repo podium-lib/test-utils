@@ -22,7 +22,8 @@
     },
     "homepage": "https://podium-lib.io/",
     "files": [
-        "lib"
+        "lib",
+        "types"
     ],
     "scripts": {
         "lint": "eslint .",
