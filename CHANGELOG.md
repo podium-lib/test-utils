@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/podium-lib/test-utils/compare/v3.0.1...v3.0.2) (2024-06-25)
+
+
+### Bug Fixes
+
+* make payload optional for GET requests in type ([8e4379e](https://github.com/podium-lib/test-utils/commit/8e4379eb072279595e87b856e4977608963152d1))
+
 ## [3.0.1](https://github.com/podium-lib/test-utils/compare/v3.0.0...v3.0.1) (2024-06-25)
 
 
