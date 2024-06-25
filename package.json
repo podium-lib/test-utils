@@ -27,7 +27,6 @@
     "scripts": {
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
-        "test": "tap --disable-coverage --allow-empty-coverage test/*.js && tsc --project tsconfig.test.json",
         "types": "tsc --declaration --emitDeclarationOnly"
     },
     "author": "Trygve Lie",
@@ -39,13 +38,18 @@
         "server-destroy": "1.0.1"
     },
     "devDependencies": {
+        "@semantic-release/changelog": "6.0.3",
+        "@semantic-release/git": "10.0.1",
+        "@semantic-release/github": "10.0.6",
+        "@semantic-release/npm": "12.0.1",
+        "@semantic-release/release-notes-generator": "14.0.1",
         "@types/readable-stream": "^4.0.14",
         "eslint": "9.5.0",
         "eslint-config-prettier": "9.1.0",
         "eslint-plugin-prettier": "5.1.3",
         "globals": "15.0.0",
         "prettier": "3.3.2",
-        "tap": "19.2.5",
+        "semantic-release": "24.0.0",
         "typescript": "5.5.2"
     }
 }
