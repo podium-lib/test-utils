@@ -1,24 +1,22 @@
 import prettierConfig from 'eslint-config-prettier';
-import prettierPlugin from 'eslint-plugin-prettier';
+import prettierPlugin from 'eslint-plugin-prettier/recommended';
 import globals from 'globals';
 import js from '@eslint/js';
 
 export default [
     js.configs.recommended,
     prettierConfig,
+    prettierPlugin,
     {
-        plugins: {
-            prettier: prettierPlugin,
-        },
         languageOptions: {
             globals: {
-                ...globals.browser,
                 ...globals.node,
+                ...globals.browser,
                 global: true,
             },
         },
     },
     {
-        ignores: ['dist/*', 'coverage/*', 'example/*'],
+        ignores: ['coverage/*', 'dist/*'],
     },
 ];
