@@ -1,34 +1,34 @@
 name: Run Lint and Tests
 
 on:
-    pull_request:
-        branches:
-            - main
-            - alpha
-            - beta
-            - next
+  pull_request:
+    branches:
+      - main
+      - alpha
+      - beta
+      - next
 
 jobs:
-    build:
-        strategy:
-            matrix:
-                os: [ubuntu-latest]
-                node-version: [20]
-        runs-on: ${{ matrix.os }}
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [20]
+    runs-on: ${{ matrix.os }}
 
-        steps:
-            - uses: actions/checkout@v4
+    steps:
+      - uses: actions/checkout@v4
 
-            - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v4
-              with:
-                  node-version: ${{ matrix.node-version }}
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
 
-            - name: npm install
-              run: npm install
+      - name: npm install
+        run: npm install
 
-            - name: npm lint
-              run: npm run lint
+      - name: npm lint
+        run: npm run lint
 
-            - name: Typecheck
-              run: npm run types
+      - name: Typecheck
+        run: npm run types
