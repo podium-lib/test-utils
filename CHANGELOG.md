@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/podium-lib/test-utils/compare/v3.0.3...v3.0.4) (2024-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @podium/podlet to v5.1.10 ([60ef808](https://github.com/podium-lib/test-utils/commit/60ef8087c58c911d3fb669866b8caf15df1998cc))
+
 ## [3.0.3](https://github.com/podium-lib/test-utils/compare/v3.0.2...v3.0.3) (2024-07-15)
 
 
