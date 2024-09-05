@@ -1,3 +1,10 @@
+# [3.1.0-next.2](https://github.com/podium-lib/test-utils/compare/v3.1.0-next.1...v3.1.0-next.2) (2024-09-05)
+
+
+### Bug Fixes
+
+* update @podium/utils ([9b4a9f7](https://github.com/podium-lib/test-utils/commit/9b4a9f7cdb86880ff0e137500746b732575fc4c1))
+
 # [3.1.0-next.1](https://github.com/podium-lib/test-utils/compare/v3.0.6...v3.1.0-next.1) (2024-09-05)
 
 
