@@ -1,3 +1,10 @@
+# [3.1.0-next.1](https://github.com/podium-lib/test-utils/compare/v3.0.6...v3.1.0-next.1) (2024-09-05)
+
+
+### Features
+
+* use @podium/podlet@next ([e39fcbb](https://github.com/podium-lib/test-utils/commit/e39fcbbc9089a215b38c2fa2936a20b44abae4cd))
+
 ## [3.0.6](https://github.com/podium-lib/test-utils/compare/v3.0.5...v3.0.6) (2024-08-19)
 
 
