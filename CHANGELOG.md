@@ -1,3 +1,10 @@
+# [3.1.0-next.3](https://github.com/podium-lib/test-utils/compare/v3.1.0-next.2...v3.1.0-next.3) (2024-09-06)
+
+
+### Bug Fixes
+
+* update podlet to v5.2.0-next.2 ([877ae66](https://github.com/podium-lib/test-utils/commit/877ae66ece91deb131d723c663710d9ea3460dde))
+
 # [3.1.0-next.2](https://github.com/podium-lib/test-utils/compare/v3.1.0-next.1...v3.1.0-next.2) (2024-09-05)
 
 

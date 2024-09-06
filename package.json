@@ -1,6 +1,6 @@
 {
     "name": "@podium/test-utils",
-    "version": "3.1.0-next.2",
+    "version": "3.1.0-next.3",
     "type": "module",
     "description": "Misc common test utils for Podium",
     "main": "lib/index.js",
