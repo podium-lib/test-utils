@@ -1,3 +1,10 @@
+## [3.0.8](https://github.com/podium-lib/test-utils/compare/v3.0.7...v3.0.8) (2024-09-13)
+
+
+### Bug Fixes
+
+* change incorrect type ([b841769](https://github.com/podium-lib/test-utils/commit/b841769055180f095dcb1fcbb764eb2f7619ecbf))
+
 ## [3.0.7](https://github.com/podium-lib/test-utils/compare/v3.0.6...v3.0.7) (2024-09-09)
 
 
