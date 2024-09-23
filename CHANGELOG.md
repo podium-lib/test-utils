@@ -1,3 +1,10 @@
+## [3.0.10](https://github.com/podium-lib/test-utils/compare/v3.0.9...v3.0.10) (2024-09-23)
+
+
+### Bug Fixes
+
+* **deps:** update podium packages ([f52f196](https://github.com/podium-lib/test-utils/commit/f52f1969e5ca2f3ac7df04d09ef2821f1f412245))
+
 ## [3.0.9](https://github.com/podium-lib/test-utils/compare/v3.0.8...v3.0.9) (2024-09-16)
 
 
