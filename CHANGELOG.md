@@ -1,3 +1,10 @@
+# [3.1.0-next.5](https://github.com/podium-lib/test-utils/compare/v3.1.0-next.4...v3.1.0-next.5) (2024-10-11)
+
+
+### Bug Fixes
+
+* update @podium/podlet to v5.2.0-next.6 ([4bf412e](https://github.com/podium-lib/test-utils/commit/4bf412edf44fd7a10f57be1d3c4df18ff5161a7d))
+
 # [3.1.0-next.4](https://github.com/podium-lib/test-utils/compare/v3.1.0-next.3...v3.1.0-next.4) (2024-10-11)
 
 
