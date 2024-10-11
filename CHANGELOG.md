@@ -1,23 +1,30 @@
-# [3.1.0-next.3](https://github.com/podium-lib/test-utils/compare/v3.1.0-next.2...v3.1.0-next.3) (2024-09-06)
+## [3.0.10](https://github.com/podium-lib/test-utils/compare/v3.0.9...v3.0.10) (2024-09-23)
 
 
 ### Bug Fixes
 
-* update podlet to v5.2.0-next.2 ([877ae66](https://github.com/podium-lib/test-utils/commit/877ae66ece91deb131d723c663710d9ea3460dde))
+* **deps:** update podium packages ([f52f196](https://github.com/podium-lib/test-utils/commit/f52f1969e5ca2f3ac7df04d09ef2821f1f412245))
 
-# [3.1.0-next.2](https://github.com/podium-lib/test-utils/compare/v3.1.0-next.1...v3.1.0-next.2) (2024-09-05)
+## [3.0.9](https://github.com/podium-lib/test-utils/compare/v3.0.8...v3.0.9) (2024-09-16)
 
 
 ### Bug Fixes
 
-* update @podium/utils ([9b4a9f7](https://github.com/podium-lib/test-utils/commit/9b4a9f7cdb86880ff0e137500746b732575fc4c1))
+* **deps:** update dependency @podium/podlet to v5.1.15 ([2e0ef37](https://github.com/podium-lib/test-utils/commit/2e0ef370389e0f9e6ce864a87a1b618066b1a453))
 
-# [3.1.0-next.1](https://github.com/podium-lib/test-utils/compare/v3.0.6...v3.1.0-next.1) (2024-09-05)
+## [3.0.8](https://github.com/podium-lib/test-utils/compare/v3.0.7...v3.0.8) (2024-09-13)
 
 
-### Features
+### Bug Fixes
 
-* use @podium/podlet@next ([e39fcbb](https://github.com/podium-lib/test-utils/commit/e39fcbbc9089a215b38c2fa2936a20b44abae4cd))
+* change incorrect type ([b841769](https://github.com/podium-lib/test-utils/commit/b841769055180f095dcb1fcbb764eb2f7619ecbf))
+
+## [3.0.7](https://github.com/podium-lib/test-utils/compare/v3.0.6...v3.0.7) (2024-09-09)
+
+
+### Bug Fixes
+
+* **deps:** update podium packages ([72c35cc](https://github.com/podium-lib/test-utils/commit/72c35cc6392367d6352ff59b33a3fc2083d1f189))
 
 ## [3.0.6](https://github.com/podium-lib/test-utils/compare/v3.0.5...v3.0.6) (2024-08-19)
 
