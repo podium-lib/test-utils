@@ -32,7 +32,7 @@
   },
   "author": "Trygve Lie",
   "dependencies": {
-    "@podium/podlet": "5.2.3",
+    "@podium/podlet": "5.2.4",
     "@podium/utils": "5.4.0",
     "readable-stream": "4.5.2",
     "selfsigned": "2.4.1",
