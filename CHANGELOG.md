@@ -1,3 +1,10 @@
+## [3.0.16](https://github.com/podium-lib/test-utils/compare/v3.0.15...v3.0.16) (2024-12-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency readable-stream to v4.6.0 ([#113](https://github.com/podium-lib/test-utils/issues/113)) ([8149cab](https://github.com/podium-lib/test-utils/commit/8149cab140976d3e7e7c8b8e22b73a8d17a39b5b))
+
 ## [3.0.15](https://github.com/podium-lib/test-utils/compare/v3.0.14...v3.0.15) (2024-11-25)
 
 
