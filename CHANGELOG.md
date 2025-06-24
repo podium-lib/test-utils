@@ -1,3 +1,10 @@
+## [3.0.18](https://github.com/podium-lib/test-utils/compare/v3.0.17...v3.0.18) (2025-06-24)
+
+
+### Bug Fixes
+
+* **deps:** update podium dependencies ([24b3cd4](https://github.com/podium-lib/test-utils/commit/24b3cd425c756b8f46926058b24ff8b8ad2c4013))
+
 ## [3.0.17](https://github.com/podium-lib/test-utils/compare/v3.0.16...v3.0.17) (2025-01-08)
 
 
