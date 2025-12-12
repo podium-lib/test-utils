@@ -1,3 +1,10 @@
+## [3.0.20](https://github.com/podium-lib/test-utils/compare/v3.0.19...v3.0.20) (2025-12-12)
+
+
+### Bug Fixes
+
+* **deps:** update selfsigned ([5471b8e](https://github.com/podium-lib/test-utils/commit/5471b8ec06562a9a1c8eff42a78b4dd2545291a1))
+
 ## [3.0.19](https://github.com/podium-lib/test-utils/compare/v3.0.18...v3.0.19) (2025-06-30)
 
 
