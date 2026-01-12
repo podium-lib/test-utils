@@ -1,3 +1,10 @@
+## [3.0.23](https://github.com/podium-lib/test-utils/compare/v3.0.22...v3.0.23) (2026-01-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency selfsigned to v5.5.0 ([#139](https://github.com/podium-lib/test-utils/issues/139)) ([3ed247b](https://github.com/podium-lib/test-utils/commit/3ed247bc3bcf92b76ab080102a281c36a38f6f55))
+
 ## [3.0.22](https://github.com/podium-lib/test-utils/compare/v3.0.21...v3.0.22) (2025-12-23)
 
 
