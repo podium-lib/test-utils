@@ -1,3 +1,10 @@
+## [3.0.25](https://github.com/podium-lib/test-utils/compare/v3.0.24...v3.0.25) (2026-03-27)
+
+
+### Bug Fixes
+
+* replace readable-stream with Node-native stream ([#145](https://github.com/podium-lib/test-utils/issues/145)) ([8f89df1](https://github.com/podium-lib/test-utils/commit/8f89df1dc0ed14c1ef37e41d889a38d605ab7088))
+
 ## [3.0.24](https://github.com/podium-lib/test-utils/compare/v3.0.23...v3.0.24) (2026-02-16)
 
 
